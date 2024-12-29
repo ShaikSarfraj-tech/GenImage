@@ -18,7 +18,7 @@ const CreatePost = () => {
 
     if (form.prompt) {
       setGeneratingImg(true)
-      fetch('https://genimage-2gln.onrender.com//api/v1/dalle', {
+      fetch('https://genimage-2gln.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
