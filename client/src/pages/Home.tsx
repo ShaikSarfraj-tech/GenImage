@@ -28,7 +28,7 @@ const Home = () => {
     const fetchPosts = async () => {
       setLoading(true)
       try {
-        const response = await fetch('https://genimage-2gln.onrender.com//api/v1/posts', {
+        const response = await fetch('https://genimage-2gln.onrender.com/api/v1/posts', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
